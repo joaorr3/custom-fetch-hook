@@ -12,7 +12,6 @@ export default function Posts(path) {
 
     return (
         <TransitionGroup className="post-list">
-            {/* <div className="card-columns mt-5"> */}
             <div className="row mt-5">
                 {posts.map(post => (
                     <Suspense fallback={<LoadingPhoto />}>
